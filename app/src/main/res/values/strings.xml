@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Project</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps2">Map</string>
+    <string name="title_activity_maps3">Map</string>
+    <string name="title_activity_maps4">Map</string>
+    <string name="title_activity_maps5">Map</string>
+    <string name="title_activity_maps6">Map</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+</resources>

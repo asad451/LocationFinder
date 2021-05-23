@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/abc">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="     Restaurants      "
+        android:id="@+id/button"
+        android:onClick="Restaurants"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="46dp"
+        android:background="@drawable/shape"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    Banks   "
+        android:textColor="@android:color/black"
+        android:id="@+id/button2"
+        android:onClick="Banks"
+        android:background="@drawable/shape"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="     ATMs    "
+        android:textColor="@android:color/black"
+        android:id="@+id/button3"
+        android:background="@drawable/shape"
+        android:onClick="ATMs"
+        android:layout_marginTop="44dp"
+        android:layout_below="@+id/button2"
+        android:layout_alignStart="@+id/button2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hospitals"
+        android:background="@drawable/shape"
+        android:textColor="@android:color/black"
+        android:id="@+id/button4"
+        android:onClick="Hospitals"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/button5" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape"
+        android:textColor="@android:color/black"
+        android:text="  Hotels  "
+        android:id="@+id/button5"
+        android:onClick="Hotels"
+        android:layout_below="@+id/button3"
+        android:layout_alignStart="@+id/button3"
+        android:layout_marginTop="66dp" />
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Custom Search"-->
+        <!--android:id="@+id/button6"-->
+        <!--android:onClick="onSearch"-->
+        <!--android:background="@drawable/shape"-->
+        <!--android:textColor="@android:color/black"-->
+        <!--android:layout_below="@+id/button5"-->
+        <!--android:layout_alignEnd="@+id/textView"-->
+        <!--android:layout_alignStart="@+id/button3" />-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location Finder"
+        android:id="@+id/textView"
+        android:textSize="30dp"
+        android:textColor="#90CAF9"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/abc">
+
+
+    <TextView
+        android:layout_width="325dp"
+        android:layout_height="206dp"
+        android:text="This application will find the current location of the user and show him nearby Places.\nIt also has Custom Search.\n\n\nMade By: \n\nAsad Masood"
+        android:id="@+id/textView4"
+        android:textSize="15dp"
+        android:textColor="#F5F5F5"
+        android:layout_gravity="center_vertical"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:background="@drawable/shape"
+        android:textColor="@android:color/black"
+        android:id="@+id/button11"
+        android:onClick="back"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location Finder"
+        android:id="@+id/textView5"
+        android:textColor="#90CAF9"
+        android:textSize="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
